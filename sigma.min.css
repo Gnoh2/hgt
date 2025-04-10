@@ -1147,9 +1147,9 @@ video {
         display: none
     }
 
-    /* .mobile-top-bar {
+    .mobile-top-bar {
         display: block
-    } */
+    }
 
     .mobile-top-bar ul li:last-of-type ul {
         right: 0
