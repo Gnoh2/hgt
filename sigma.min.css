@@ -1150,9 +1150,11 @@ video {
     .mobile-top-bar {
         display: block
     }
-    .mobile-top-bar ul{
-        display :none
+
+    .mobile-top-bar ul {
+        display: none !important;
     }
+
     .mobile-top-bar ul li:last-of-type ul {
         right: 0
     }
