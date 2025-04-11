@@ -465,7 +465,7 @@ sup {
 }
 
 #side-bar .collapsible-block-unfolded-link {
-    border-bottom: solid 1px #600
+    border-bottom: solid 1px #1a3300
 }
 
 #side-bar .collapsible-block-unfolded-link .collapsible-block-link {
@@ -473,11 +473,11 @@ sup {
     margin-bottom: 5px;
     margin-left: 15px;
     font-size: .675em;
-    color: #600
+    color: #1a3300
 }
 
 #side-bar .collapsible-block-unfolded-link .collapsible-block-link:hover {
-    color: #b01;
+    color: rgb(156, 233, 93);
     text-decoration: none
 }
 
