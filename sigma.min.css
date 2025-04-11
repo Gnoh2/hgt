@@ -315,7 +315,7 @@ sup {
 #top-bar ul li.sfhover a,
 #top-bar ul li:hover a {
     background: #eee;
-    color: #a01;
+    color: #059400;
     border-left: solid 1px #404040;
     border-right: solid 1px #404040
 }
@@ -350,7 +350,7 @@ sup {
 
 #top-bar a:hover,
 #top-bar ul li ul a {
-    color: #a01
+    color: #059400
 }
 
 .top-bar ul li:last-of-type ul {
@@ -477,7 +477,7 @@ sup {
 }
 
 #side-bar .collapsible-block-unfolded-link .collapsible-block-link:hover {
-    color: rgb(156, 233, 93);
+    color: rgb(133, 158, 112);
     text-decoration: none
 }
 
