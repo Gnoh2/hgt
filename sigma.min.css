@@ -437,9 +437,9 @@ sup {
 }
 
 #interwiki a,
-#side-bar a {
+/* #side-bar a {
     color: #b01
-}
+} */
 
 #interwiki .menu-item a,
 #side-bar .menu-item a {
