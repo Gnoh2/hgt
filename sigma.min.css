@@ -158,28 +158,29 @@ sup {
     overflow: hidden;
 }
 
+/* 
 #header::before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 5px;
-    width: 100px;
-    height: 100px;
-    background: url('http://ltda.wikidot.com/local--files/main/%E9%BE%9F%E9%BE%9F.png') no-repeat center/contain;
-    transform: translateY(-50%) rotate(0deg);
-    animation: rotate-bg 5s linear infinite;
-    pointer-events: none;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  width: 100px;
+  height: 100px;
+  background: url('http://ltda.wikidot.com/local--files/main/%E9%BE%9F%E9%BE%9F.png') no-repeat center/contain;
+  transform: translateY(-50%) rotate(0deg);
+  animation: rotate-bg 5s linear infinite;
+  pointer-events: none;
 }
 
 @keyframes rotate-bg {
-    from {
-        transform: translateY(-50%) rotate(0deg);
-    }
+  from {
+    transform: translateY(-50%) rotate(0deg);
+  }
+  to {
+    transform: translateY(-50%) rotate(360deg);
+  }
+} */
 
-    to {
-        transform: translateY(-50%) rotate(360deg);
-    }
-}
 
 #search-top-box {
     position: absolute;
