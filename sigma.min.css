@@ -158,8 +158,6 @@ sup {
     overflow: hidden;
 }
 
-
-
 #header::before {
     content: "";
     position: absolute;
@@ -167,39 +165,13 @@ sup {
     left: 5px;
     width: 100px;
     height: 100px;
-    background:
-        url('http://ltda.wikidot.com/local--files/main/%E9%BE%9F%E9%BE%9F.png') no-repeat center/contain;
+    background: url('http://ltda.wikidot.com/local--files/main/%E9%BE%9F%E9%BE%9F.png') no-repeat center/contain;
     transform: translateY(-50%) rotate(0deg);
-    animation:
-        rotate-bg 5s linear infinite;
+    animation: rotate-bg 5s linear infinite;
     pointer-events: none;
 }
 
-/* 定义容器 */
-.circle-container {
-    position: relative;
-    width: 100px;
-    height: 100px;
-    margin: 50px auto;
-    border: 1px solid #ccc;
-    border-radius: 50%;
-}
-
-/* 定义正方形 */
-.square {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 30px;
-    height: 30px;
-    /* background-color: #ff6347; */
-    transform: translateY(-50%);
-    transform-origin: 15px 50px;
-    animation: circularMotion 5s linear infinite, selfRotation 2s linear infinite;
-}
-
-/* 定义圆周运动动画 */
-@keyframes circularMotion {
+@keyframes rotate-bg {
     from {
         transform: translateY(-50%) rotate(0deg);
     }
@@ -209,16 +181,6 @@ sup {
     }
 }
 
-/* 定义自身旋转动画 */
-@keyframes selfRotation {
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
-}
 
 #search-top-box {
     position: absolute;
