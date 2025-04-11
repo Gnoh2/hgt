@@ -149,13 +149,36 @@ sup {
 }
 
 #header {
-    height: 140px;
     position: relative;
+    height: 140px;
     z-index: 10;
     padding-bottom: 22px;
-    background: url('http://ltda.wikidot.com/local--files/main/%E9%BE%9F%E9%BE%9F.png') 10px 40px no-repeat;
-    background-size: 100px;
-    background-position: 5px 50%
+    background-color: #f0f0f0;
+    /* 用于对比图片位置 */
+    overflow: hidden;
+}
+
+#header::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    width: 100px;
+    height: 100px;
+    background: url('http://ltda.wikidot.com/local--files/main/%E9%BE%9F%E9%BE%9F.png') no-repeat center/contain;
+    transform: translateY(-50%) rotate(0deg);
+    animation: rotate-bg 5s linear infinite;
+    pointer-events: none;
+}
+
+@keyframes rotate-bg {
+    from {
+        transform: translateY(-50%) rotate(0deg);
+    }
+
+    to {
+        transform: translateY(-50%) rotate(360deg);
+    }
 }
 
 #search-top-box {
