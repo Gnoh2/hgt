@@ -32,7 +32,7 @@
 
 #page-title,
 h1 {
-    color: #901;
+    color: #059400;
     padding: 0 0 .25em;
     margin: 0 0 .6em;
     font-weight: 400
@@ -60,7 +60,7 @@ h6 {
 
 .meta-title {
     border-bottom: solid 1px #bbb;
-    color: #901;
+    color: #059400;
     font-weight: 400;
     margin: 0 0 .6em;
     padding: 0 0 .25em;
@@ -177,7 +177,7 @@ sup {
     font-size: .9em;
     font-weight: 700;
     color: #ccc;
-    background-color: #633;
+    background-color: #059400;
     background-image: linear-gradient(to bottom, #739966, #396633, #0b3300);
     box-shadow: 0 1px 3px rgba(0, 0, 0, .5);
     cursor: pointer
@@ -205,13 +205,13 @@ sup {
 }
 
 #login-status ul a {
-    color: #700;
+    color: #059400;
     background: 0 0
 }
 
 #account-topbutton {
     background: #ccc;
-    color: #700
+    color: #059400
 }
 
 .printuser img.small {
@@ -576,7 +576,7 @@ sup {
 .yui-navset .yui-nav .selected a,
 .yui-navset .yui-nav .selected a:focus,
 .yui-navset .yui-nav .selected a:hover {
-    background: #700 url('https://d3g0gp89917ko0.cloudfront.net/v--3b8418686296/common--theme/shiny/images/yuitabs.png') repeat-x left -1400px;
+    background: #059400 url('https://d3g0gp89917ko0.cloudfront.net/v--3b8418686296/common--theme/shiny/images/yuitabs.png') repeat-x left -1400px;
     color: #fff
 }
 
@@ -727,8 +727,8 @@ div.sexy-box div.image-container img {
 }
 
 div.page-rate-widget-box .rate-points {
-    background-color: #633;
-    border: solid 1px #633;
+    background-color: #059400;
+    border: solid 1px #059400;
     border-right: 0;
     border-radius: 5px 0 0 5px
 }
@@ -736,29 +736,29 @@ div.page-rate-widget-box .rate-points {
 .page-rate-widget-box .ratedown,
 .page-rate-widget-box .rateup {
     background-color: #fff6f0;
-    border-top: solid 1px #633;
-    border-bottom: solid 1px #633;
+    border-top: solid 1px #059400;
+    border-bottom: solid 1px #059400;
     font-weight: 700
 }
 
 .page-rate-widget-box .ratedown a,
 .page-rate-widget-box .rateup a {
     background: 0 0;
-    color: #633;
+    color: #059400;
     padding: 0 4px;
     margin: 0 1px
 }
 
 .page-rate-widget-box .ratedown a:hover,
 .page-rate-widget-box .rateup a:hover {
-    background: #633;
+    background: #059400;
     color: ivory;
     text-decoration: none
 }
 
 .page-rate-widget-box .cancel {
-    background-color: #633;
-    border: solid 1px #633;
+    background-color: #059400;
+    border: solid 1px #059400;
     border-left: 0;
     border-radius: 0 5px 5px 0
 }
@@ -771,7 +771,7 @@ div.page-rate-widget-box .rate-points {
 
 .page-rate-widget-box .cancel a:hover {
     border-radius: 0 3px 3px 0;
-    background: #633;
+    background: #059400;
     color: ivory;
     text-decoration: none
 }
@@ -1230,7 +1230,7 @@ div#u-adult-warning {
 div#u-adult-warning>div#u-adult-header {
     font-size: 3em;
     text-shadow: 1px 2px 3px rgba(0, 0, 0, .5);
-    color: #901
+    color: #059400
 }
 
 div#u-adult-warning>div#u-adult-header p {
