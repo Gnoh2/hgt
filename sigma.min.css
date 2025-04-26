@@ -157,7 +157,27 @@ sup {
     background-size: 100px;
     background-position: 5px 50%
 }
+#header::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 5px;
+            width: 100px;
+            height: 100px;
+            background: url('http://ltda.wikidot.com/local--files/main/%E9%BE%9F%E9%BE%9F.png') no-repeat center/contain;
+            transform: translate(-50%, -50%) rotate(180deg) translateX(30px);
+            animation: circular-motion 5s linear infinite;
+            pointer-events: none;
+        }
 
+        @keyframes circular-motion {
+            0% {
+                transform: translate(-50%, 50px) rotate(360deg) translateX(100px);
+            }
+            100% {
+                transform: translate(-50%, -50px) rotate(0deg) translateX(100px);
+            }
+        }
 #search-top-box {
     position: absolute;
     top: 79px;
