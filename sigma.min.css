@@ -1298,3 +1298,43 @@ div#u-adult-warning>.error-block {
     --bs-btn-disabled-bg: rgba(255, 255, 255, 0.05);
     --bs-btn-disabled-border-color: #0d6efd;
 }
+
+.btn-danger {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: rgba(255, 255, 255, 0.05);
+    --bs-btn-border-color: rgba(255, 255, 255, 0.05);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: rgba(255, 255, 255, 0.05);
+    --bs-btn-hover-border-color: rgba(255, 255, 255, 0.05);
+    --bs-btn-focus-shadow-rgb: 225, 83, 97;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: rgba(0, 0, 0, 0.125);
+    --bs-btn-active-border-color: rgba(255, 255, 255, 0.05);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg
+rgba(0, 0, 0, 0.125)
+: rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-border-color: rgba(0, 0, 0, 0.125);
+}
+
+.rate-points>.number>iframe{
+    height:20px !important;
+}
+
+.page-rate-widget-box .cancel a{
+    color:white !important;
+}
+
+.rate-box-with-credit-button{
+    background-color:#059400 !important;
+    border:#059400 !important;
+}
+
+.creditButton p a{
+    border-left:solid 1px white !important;
+}
+
+.info-container .collapsible-block-folded , .info-container .collapsible-block-unfolded-link{
+    background:#059400 !important;
+}
