@@ -1312,9 +1312,7 @@ div#u-adult-warning>.error-block {
     --bs-btn-active-border-color: rgba(255, 255, 255, 0.05);
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     --bs-btn-disabled-color: #fff;
-    --bs-btn-disabled-bg
-rgba(0, 0, 0, 0.125)
-: rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-bg: rgba(0, 0, 0, 0.125);
     --bs-btn-disabled-border-color: rgba(0, 0, 0, 0.125);
 }
 
@@ -1337,4 +1335,9 @@ rgba(0, 0, 0, 0.125)
 
 .info-container .collapsible-block-folded , .info-container .collapsible-block-unfolded-link{
     background:#059400 !important;
+}
+
+#action-area p:last-of-type{
+    display:flex;
+    justify-content:end;
 }
